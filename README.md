@@ -11,7 +11,7 @@
 # 1. Запуск проекта
 ### 1.1. Клонируйте репозиторий и перейдите в рабочую директорию:
 ```bash
-git clone https://github.com/KaninVitaliy/Diplom_API.git
+git clone https://git@github.com:KaninVitaliy/Django_API.git
 cd social_network
 ```
 ### 1.2. Установите зависимости из файла `requirements.txt`:
