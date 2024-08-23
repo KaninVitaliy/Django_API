@@ -78,9 +78,9 @@ WSGI_APPLICATION = 'social_network.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'spd-diplom-main',
-        'USER': 'postgres',
-        'PASSWORD': '6642',
+        'NAME': 'name data base',
+        'USER': 'user',
+        'PASSWORD': 'password',
         'HOST': 'localhost',
         'PORT': 5432
     }
