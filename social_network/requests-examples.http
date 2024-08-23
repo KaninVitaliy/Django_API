@@ -1,0 +1,49 @@
+# примеры API-запросов
+
+@baseUrl = http://localhost:8000/api
+@token = <token>
+
+# получение Постов
+#
+GET {{baseUrl}}/posts/
+Content-Type: application/json
+
+###
+
+# создание Поста
+POST {{baseUrl}}/posts/
+Content-Type: application/json
+Authorization: Token {{token}}
+
+{
+  "text": "Test Post",
+  "location": "Moscow,Russia"
+}
+###
+
+# Удаление Поста
+DELETE {{baseUrl}}/posts/<post_id>/
+Content-Type: application/json
+Authorization: Token {{token}}
+
+### 
+
+# Добавление комментария к посту
+POST {{baseUrl}}/posts/post_id/comments/
+Content-Type: application/json
+Authorization: Token {{token}}
+
+{
+  "author": 1,
+  "text": "TEST Comment"
+}
+
+###
+
+# Поставить лайк к Посту / Повторный запрос уберет лайк
+POST {{baseUrl}}/posts/post_id/likes/
+Content-Type: application/json
+Authorization: Token {{token}}
+
+###
+
