@@ -6,7 +6,7 @@
 - Python 3.x
 - Django
 - Django REST Framework
-- База данных (например, PostgreSQL, SQLite)
+- База данных (PostgreSQL, SQLite)
 
 # 1. Запуск проекта
 ### 1.1. Клонируйте репозиторий и перейдите в рабочую директорию:
